@@ -373,7 +373,7 @@ a:hover {
   
   .card__title {
     color: gray-dark;
-    font-size: 1.25rem;
+    font-size: 25px;
     font-weight: 300;
     letter-spacing: 2px;
     text-transform: uppercase;
