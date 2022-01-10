@@ -6,77 +6,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drama | BioscopeBD </title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/movie.css">
 </head>
-
 <body>
   <header class="header">
     <div class="container">
-        <div class="logo" >BioscopeBD</div>
-        <nav class="menu">
-          <a href="file:///C:/Users/User/Desktop/Movie-Website-Home-Page-main/Movie%20Website/home.html">Home</a>
-            <a href="file:///C:/Users/User/Desktop/Movie-Website-Home-Page-main/Movie%20Website/movie.html">Movies</a>
-            <a href="file:///C:/Users/User/Desktop/Movie-Website-Home-Page-main/Movie%20Website/drama.html">Drama</a>
-            <a href="C:\Users\User\Desktop\Movie-Website-Home-Page-main\Movie Website/upcoming2.html">Upcoming</a>
-            <a href="file:///C:/Users/User/Desktop/Movie-Website-Home-Page-main/Movie%20Website/news.html">News</a>
-            <a href="file:///C:/Users/User/Desktop/Movie-Website-Home-Page-main/Movie%20Website/contactus.html">Contact Us</a>
-          </nav>
+      <div class="main">
+        <span style="font-size:30px;cursor:pointer;color: aliceblue;position:absolute; right:500px;" onclick="openNav()">&#9776; </span>
+      </div>     
+
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="C:\Users\LENOVO\Desktop\bioscope\Movie Website/home.html">Home</a>
+            <a href="C:\Users\LENOVO\Desktop\bioscope\Movie Website/movie.html">Movies</a>
+            <a href="C:\Users\LENOVO\Desktop\bioscope\Movie Website/drama.html">Drama</a>
+            <a href="C:\Users\LENOVO\Desktop\bioscope\Movie Website/upcoming2.html">Upcoming</a>
+            <a href="C:\Users\LENOVO\Desktop\bioscope\Movie Website/news.html">News</a>
+            <a href="C:\Users\LENOVO\Desktop\bioscope\Movie Website/contactus.html">Contact Us</a>
           </div>
+         
+          
+            
+                <img src='C:\Users\LENOVO\Desktop\bioscope\Movie Website\img\gif.gif' class='iconDetails'>
+             
+            <div style='margin-left:60px;'>
+        <h1 class="logo">BioscopeBD</h1>
+             </div>
+             
+    </div>
+          
+            
+        </div>
+         
     </div>
 </header>
+
 <body class="movie_body">
-<div class="movie_card">
-  <div class="info_section">
-    <div class="movie_header">
-      <img class="locandina" src="C:\Users\User\Desktop\Movie-Website-Home-Page-main\Movie Website\img\10.jpg"/>
-      <h1>Kothao Kew Nei</h1>
-      <h4>1996, Morshedul Islam</h4>
-      <span class="minutes">2hr 34min</span>
-      <p class="type">Adventure</p>
+  <div class="movie_card">
+    <div class="info_section">
+      <div class="movie_header">
+        <img class="locandina" src="C:\Users\LENOVO\Desktop\bioscope\Movie Website\img\10.jpg"/>
+        <h1>Aj Robibar</h1>
+        <h4>1996, Morshedul Islam</h4>
+        <span class="minutes">2hr 34min</span>
+        <p class="type">Adventure</p>
+      </div>
+      <div class="movie_desc">
+        <p>Aaj Robibar is a Bangladeshi television sitcom, created by Humayun Ahmed, that was originally aired on BTV in 1999.</p>
+  
+        <a href="https://www.imdb.com/title/tt0831933/" class="btn btn-primary btn-block">Read more</a>
+        <a href="https://www.youtube.com/playlist?list=PLtETw_ijdrdhFfxvvi_QfLzQ0_ftr8mfA" class="btn btn-primary btn-block">Watch</a>
+        
+      </div>
     </div>
-    <div class="movie_desc">
-      <p class="text">The plot revolves around the day-to-day life of an eccentric household consisting of a man only called Dadajan ("grandpa"), his socially in-adept sons, two granddaughters, a boarder, the manservant and the maid.</p>
-    </div>
-    
-    </div>
+    <div class="blur_back bright_back"></div>
   </div>
-  <div class="blur_back bright_back"></div>
-</div>
+  
+  <div class="movie_card">
+    <div class="info_section">
+      <div class="movie_header">
+        <img class="locandina" src="C:\Users\LENOVO\Desktop\bioscope\Movie Website\img\9.jpg"/>
+        <h1>Boli</h1>
+        <h4>2016,  Amitabh Reza Chowdhury</h4>
+        <span class="minutes">2hr 27min</span>
+        <p class="type">Mystry, Crime</p>
+      </div>
+      <div class="movie_desc">
+        <p>Boli is a Bangladeshi crime drama streaming television series created by Sarder Saniat Hossain, Robiul Alam Robi and Naseef Faruque Amin that released on Hoichoi on 3 December 2021. </p>
+  
+        <a href="https://www.imdb.com/title/tt16088566/" class="btn btn-primary btn-block">Read more</a>
+        <a href="https://www.youtube.com/watch?v=V5ZwAfbbuvM" class="btn btn-primary btn-block">Watch</a>
+      </div>
+    </div>
+    <div class="blur_back tomb_back"></div>
+  </div>
+  
+  <div class="movie_card" id="ave">
+    <div class="info_section">
+      <div class="movie_header">
+        <img class="locandina" src="C:\Users\LENOVO\Desktop\bioscope\Movie Website\img\7.jpg"/>
+        <h1>Punor Jonmo 2</h1>
+        <h4>2021, 
+          Faisal Ahmed & Sunny Sanwar</h4>
+        <span class="minutes">1hr 40 min</span>
+        <p class="type">Mystry, Thriller</p>
+      </div>
+      <div class="movie_desc">
+        <p>Rafsan Haq is a famous chef of Bangladesh. After disappearing for three years, one day his wife Neela suddenly shows up in a local police station.</p>
+  
+        <a href="https://m.imdb.com/title/tt15361954/" class="btn btn-primary btn-block">Read more</a>
+        <a href="https://www.youtube.com/watch?v=1LNg_iHE8h4" class="btn btn-primary btn-block">Watch</a>
+      </div>
+      
+    </div>
+    <div class="blur_back ave_back"></div>
+  </div>
 
-<div class="movie_card">
-  <div class="info_section">
-    <div class="movie_header">
-      <img class="locandina" src="C:\Users\User\Desktop\Movie-Website-Home-Page-main\Movie Website\img\9.jpg"/>
-      <h1>Boli</h1>
-      <h4>2016,  Amitabh Reza Chowdhury</h4>
-      <span class="minutes">2hr 27min</span>
-      <p class="type">Mystry, Crime</p>
-    </div>
-    <div class="movie_desc">
-      <p class="text">
-        In the lawless island of Chedadiya, the ruthless Sohrab is in pursuit of absolute power. But Rustom, a stranger who has arrived there by a stroke of luck, seems to be in his way.
-      </p>
-    </div>
-  </div>
-  <div class="blur_back tomb_back"></div>
-</div>
-
-<div class="movie_card" id="ave">
-  <div class="info_section">
-    <div class="movie_header">
-      <img class="locandina" src="C:\Users\User\Desktop\Movie-Website-Home-Page-main\Movie Website\img\7.jpg"/>
-      <h1>Punor Jonmo 2</h1>
-      <h4>2021, 
-        Faisal Ahmed & Sunny Sanwar</h4>
-      <span class="minutes">1hr 40 min</span>
-      <p class="type">Mystry, Thriller</p>
-    </div>
-    <div class="movie_desc">
-      <p class="text">
-        After bringing down the man behind the Dhaka Attack, Head of Bomb Disposal Unit, Abid Rahman learns that an invisible threat still hovering over Bangladesh. 
-      </p>
-    </div>
-  </div>
-  <div class="blur_back ave_back"></div>
-</div>
+<script src="js/readmore.js"></script>
+<script src="js/movie.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

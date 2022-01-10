@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
         rel="stylesheet">
@@ -15,18 +16,37 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="logo" >BioscopeBD</div>
-            <nav class="menu">
-              <a href="file:///C:/Users/User/Desktop/Movie-Website-Home-Page-main/Movie%20Website/home.html">Home</a>
-                <a href="file:///C:/Users/User/Desktop/Movie-Website-Home-Page-main/Movie%20Website/movie.html">Movies</a>
-                <a href="file:///C:/Users/User/Desktop/Movie-Website-Home-Page-main/Movie%20Website/drama.html">Drama</a>
-                <a href="C:\Users\User\Desktop\Movie-Website-Home-Page-main\Movie Website/upcoming2.html">Upcoming</a>
-                <a href="file:///C:/Users/User/Desktop/Movie-Website-Home-Page-main/Movie%20Website/news.html">News</a>
-                <a href="file:///C:/Users/User/Desktop/Movie-Website-Home-Page-main/Movie%20Website/contactus.html">Contact Us</a>
-              </nav>
+          <div class="main">
+            <span style="font-size:30px;cursor:pointer;color: aliceblue;position:absolute; right:500px;" onclick="openNav()">&#9776; </span>
+          </div>     
+
+              <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="C:\Users\LENOVO\Desktop\bioscope\Movie Website/home.html">Home</a>
+                <a href="C:\Users\LENOVO\Desktop\bioscope\Movie Website/movie.html">Movies</a>
+                <a href="C:\Users\LENOVO\Desktop\bioscope\Movie Website/drama.html">Drama</a>
+                <a href="C:\Users\LENOVO\Desktop\bioscope\Movie Website/upcoming2.html">Upcoming</a>
+                <a href="C:\Users\LENOVO\Desktop\bioscope\Movie Website/news.html">News</a>
+                <a href="C:\Users\LENOVO\Desktop\bioscope\Movie Website/contactus.html">Contact Us</a>
+    
+              </div>
+             
+              
+                
+                    <img src='C:\Users\User\Desktop\Movie-Website-Home-Page-main\Movie Website\img\gif.gif' class='iconDetails'>
+                 
+                <div style='margin-left:60px;'>
+            <h1 class="logo">BioscopeBD</h1>
+                 </div>
+                 
+        </div>
+              
+                
+            </div>
+             
         </div>
     </header>
-           
+
     <div class="upcoming_container">
         <div class="movie-list-container">
             <h1 class="movie-list-title">NEW RELEASES MOVIES</h1>
@@ -37,21 +57,21 @@
                         <span class="movie-list-item-title">OPERATION SUNDARBAN</span>
                         <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
                             hic fugit similique accusantium.</p>
-                        <button class="movie-list-item-button">Watch</button>
+                            <a href="https://www.youtube.com/watch?v=ZcbB4bStsN0" class="movie-list-item-button">Watch</a>
                     </div>
                     <div class="movie-list-item">
                         <img class="movie-list-item-img" src="img/12.jpg" alt="">
                         <span class="movie-list-item-title">NO MAN'S LAND</span>
                         <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
                             hic fugit similique accusantium.</p>
-                        <button class="movie-list-item-button">Watch</button>
+                            <a href="https://en.wikipedia.org/wiki/Jibon_Theke_Neya" class="movie-list-item-button">Watch</a>
                     </div>
                     <div class="movie-list-item">
                         <img class="movie-list-item-img" src="img/13.jpg" alt="">
                         <span class="movie-list-item-title">DHAKA 2040</span>
                         <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
                             hic fugit similique accusantium.</p>
-                        <button class="movie-list-item-button">Watch</button>
+                        <a href="https://en.wikipedia.org/wiki/Jibon_Theke_Neya" class="movie-list-item-button">Watch</a>
                     </div>
                     <div class="movie-list-item">
                         <img class="movie-list-item-img" src="img/14.jpg" alt="">
@@ -65,7 +85,7 @@
                         <span class="movie-list-item-title">AYNABAJI</span>
                         <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
                             hic fugit similique accusantium.</p>
-                        <button class="movie-list-item-button">Watch</button>
+                            <a href="https://en.wikipedia.org/wiki/Jibon_Theke_Neya" class="movie-list-item-button">Watch</a>
                     </div>
                     
                     <div class="movie-list-item">
@@ -73,14 +93,14 @@
                         <span class="movie-list-item-title">AYNABAJI</span>
                         <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
                             hic fugit similique accusantium.</p>
-                        <button class="movie-list-item-button">Watch</button>
+                            <a href="https://en.wikipedia.org/wiki/Jibon_Theke_Neya" class="movie-list-item-button">Watch</a>
                     </div>
                     <div class="movie-list-item">
                         <img class="movie-list-item-img" src="img/5.jpg" alt="">
                         <span class="movie-list-item-title">AYNABAJI</span>
                         <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
                             hic fugit similique accusantium.</p>
-                        <button class="movie-list-item-button">Watch</button>
+                            <a href="https://en.wikipedia.org/wiki/Jibon_Theke_Neya" class="movie-list-item-button">Watch</a>
                     </div>
 
                 </div>
@@ -96,57 +116,59 @@
                         <span class="movie-list-item-title">BOLI</span>
                         <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
                             hic fugit similique accusantium.</p>
-                        <button class="movie-list-item-button">Watch</button>
+                            <a href="https://en.wikipedia.org/wiki/Jibon_Theke_Neya" class="movie-list-item-button">Watch</a>
                     </div>
                     <div class="movie-list-item">
                         <img class="movie-list-item-img" src="img/10.jpg" alt="">
                         <span class="movie-list-item-title">AJ ROBI BAR</span>
                         <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
                             hic fugit similique accusantium.</p>
-                        <button class="movie-list-item-button">Watch</button>
+                            <a href="https://en.wikipedia.org/wiki/Jibon_Theke_Neya" class="movie-list-item-button">Watch</a>
                     </div>
                     <div class="movie-list-item">
                         <img class="movie-list-item-img" src="img/9.jpg" alt="">
                         <span class="movie-list-item-title">BOLI</span>
                         <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
                             hic fugit similique accusantium.</p>
-                        <button class="movie-list-item-button">Watch</button>
+                            <a href="https://en.wikipedia.org/wiki/Jibon_Theke_Neya" class="movie-list-item-button">Watch</a>
                     </div>
                     <div class="movie-list-item">
                         <img class="movie-list-item-img" src="img/7.jpg" alt="">
                         <span class="movie-list-item-title">PUNORJONMO</span>
                         <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
                             hic fugit similique accusantium.</p>
-                        <button class="movie-list-item-button">Watch</button>
+                            <a href="https://en.wikipedia.org/wiki/Jibon_Theke_Neya" class="movie-list-item-button">Watch</a>
+                        
                     </div>
                     <div class="movie-list-item">
                         <img class="movie-list-item-img" src="img/10.jpg" alt="">
                         <span class="movie-list-item-title">AYNABAJI</span>
                         <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
                             hic fugit similique accusantium.</p>
-                        <button class="movie-list-item-button">Watch</button>
+                            <a href="https://en.wikipedia.org/wiki/Jibon_Theke_Neya" class="movie-list-item-button">Watch</a>
                     </div>
                     <div class="movie-list-item">
                         <img class="movie-list-item-img" src="img/1.jpg" alt="">
                         <span class="movie-list-item-title">BOLI</span>
                         <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
                             hic fugit similique accusantium.</p>
-                        <button class="movie-list-item-button">Watch</button>
+                            <a href="https://en.wikipedia.org/wiki/Jibon_Theke_Neya" class="movie-list-item-button">Watch</a>
                     </div>
                     <div class="movie-list-item">
                         <img class="movie-list-item-img" src="img/1.jpg" alt="">
                         <span class="movie-list-item-title">BOLI</span>
                         <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
                             hic fugit similique accusantium.</p>
-                        <button class="movie-list-item-button">Watch</button>
+                            <a href="https://en.wikipedia.org/wiki/Jibon_Theke_Neya" class="movie-list-item-button">Watch</a>
                     </div>
                 </div>
-                <i class="fas fa-chevron-right arrow"></i>
+                <i class="fas fa-chevron-right arrow"> </i>
             </div>
         </div>
     </div>
 </div>
 <script src="js/app.js"></script>
+<script src="js/script.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+
+
+body {
+	font-family: 'Special Elite', cursive;
+	background: #43423E;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+blockquote {
+	font-weight: 100;
+	font-size: 25px;
+	max-width: 600px;
+	line-height: 1.4;
+	position: flex;
+	margin-top: 15px;
+	padding: 1px;
+}
+

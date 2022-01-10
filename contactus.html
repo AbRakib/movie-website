@@ -10,15 +10,33 @@
 <body>
   <header class="header">
     <div class="container">
-        <div class="logo" >BioscopeBD</div>
-        <nav class="menu">
-          <a href="file:///C:/Users/User/Desktop/Movie-Website-Home-Page-main/Movie%20Website/home.html">Home</a>
+      <div class="main">
+        <span style="font-size:30px;cursor:pointer;color: aliceblue;position:absolute; right:550px;" onclick="openNav()">&#9776; </span>
+      </div>     
+
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="file:///C:/Users/User/Desktop/Movie-Website-Home-Page-main/Movie%20Website/home.html">Home</a>
             <a href="file:///C:/Users/User/Desktop/Movie-Website-Home-Page-main/Movie%20Website/movie.html">Movies</a>
             <a href="file:///C:/Users/User/Desktop/Movie-Website-Home-Page-main/Movie%20Website/drama.html">Drama</a>
             <a href="C:\Users\User\Desktop\Movie-Website-Home-Page-main\Movie Website/upcoming2.html">Upcoming</a>
             <a href="file:///C:/Users/User/Desktop/Movie-Website-Home-Page-main/Movie%20Website/news.html">News</a>
             <a href="file:///C:/Users/User/Desktop/Movie-Website-Home-Page-main/Movie%20Website/contactus.html">Contact Us</a>
-          </nav>
+          </div>
+         
+          
+            
+                <img src='C:\Users\User\Desktop\Movie-Website-Home-Page-main\Movie Website\img\gif.gif' class='iconDetails'>
+             
+            <div style='margin-left:60px;'>
+        <h1 class="logo">BioscopeBD</h1>
+             </div>
+             
+    </div>
+          
+            
+        </div>
+         
     </div>
 </header>
             
@@ -28,7 +46,7 @@
     </div>
     <div class="row_contact">
       <div class="column_contact">
-        <form action="/action_page.php">
+        <form action>
           <label for="fname">First Name</label>
           <input type="text" id="fname" name="firstname" placeholder="Your name..">
           <label for="lname">Last Name</label>
@@ -40,6 +58,6 @@
       </div>
     </div>
   </div>
-
+  <script src="js/script.js"></script>
   </body>
   </html>

@@ -15,35 +15,60 @@
 }
 
 body {
-    background-color: var(--secondary-color);
+  background: #43423E;
 }
 .header {
     width: 100%;
     height: 150px;
-    background-color: var(--secondary-color);
-    position: relative;
+    background-color:#000;
 }
 
 .header .container {
-    width: 1200px;
+    width: 700px;
     height: 100px;
-    position: relative;
+    position: absolute;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-right: 0px;
-    padding-left: 0px;
+    align-items: left;
+    padding-left: 450px;
+    
 }
+
+
+.header .container .main {
+   
+  
+  border-color: #ccc;
+  position: absolute;
+  width: 100px;
+  height: 120px;
+  align-content: right;
+  
+}
+
 .header .container .logo {
     color: #fff;
     font-size: 100px;
     font-family: 'Nunito', serif;
     font-weight: 500;
     cursor: pointer;
+    align-content: center;
 }
 
-.header .container .label{
+.header .container .iconDetails {
+ 
+ float:center; 
+ width: 400px;
+ height: 150px;
+ object-fit: cover;
+ border: 1px solid #ddd;
+  border-radius: 2px;
+  padding: 0px;
+ } 
+ 
+
+.header .container   label{
     width: 32px;
     height: 32px;
     opacity: 0;
@@ -104,12 +129,13 @@ body {
 }
 
 
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
 
 body {
-  background: #43423E;
+  background: c;
 }
 
 a {
@@ -123,6 +149,53 @@ a:hover {
 
 * {
     box-sizing: border-box;
+  }
+
+  /*side bar*/
+  body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 245, 245);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #0e0a0a;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #811616;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
   }
   
   body {
@@ -145,6 +218,8 @@ a:hover {
     display: table;
     clear: both;
   }
+
+ 
   
   /* Style the counter cards */
   .card {
@@ -245,7 +320,7 @@ a:hover {
     border: 1px solid gray-light;
     border-radius: 1rem;
     color: gray-dark;
-    padding: 0.5rem;
+    padding: 1px;
     text-transform: none;
   }
   
@@ -263,27 +338,27 @@ a:hover {
   }
   
   .cards__item {
-    display: relative;
+    display:flex ;
     float: left;
-  width: 33.33%;
-  padding: 10px 10px;
+  width: 33%;
+  padding: 10px 5px;
   box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   text-align: center;
-  background-color: #06472e;
-  margin-top: 200px;
+  background-color: #e0e9cf;
+  margin-top: 50px;
 
   }
 
   .card {
     background-color: #f0f0f0;
-    border-radius: 0.25rem;
+    border-radius: 1px;
     padding: 5px;
     box-shadow: 0 5px 10px -14px rgba(0,0,0,0.25);
-    display: relative;
+    display: flex;
     flex-direction: row;
     overflow: hidden;
-    width: 370px;
-    height:460px;
+    width: 430px;
+    height:250px;
   }
   
   .card__content {
@@ -323,7 +398,7 @@ a:hover {
 
 movie_body{
   margin: 0;
-  background: rgb(4, 48, 21);
+  background: white;
   font-family: 'Montserrat', helvetica, arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -403,6 +478,7 @@ movie_body{
             font-size: 15px;
             cursor: pointer;
           }
+    #more {display: none;}
   .blur_back{
     position: absolute;
     top: 0;
@@ -459,10 +535,28 @@ movie_body{
   }
 }
 
-/*NEWS*/
-.header .container .news_menu {
-  display: flex;
-  flex-direction: row;
-  margin-top: 100px;
-  color: #fff;
+.arrow {
+  font-size: 120px;
+  position: absolute;
+  top: 90px;
+  right: 0;
+  color: rgb(7, 1, 1);
+  opacity: 0.5;
+  cursor: pointer;
 }
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.row .column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ 

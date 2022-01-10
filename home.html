@@ -6,56 +6,210 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | BioscopeBD </title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/quotation.css">
 </head>
 <body>
     <header class="header">
         <div class="container">
-            <div class="logo" >BioscopeBD</div>
-            <nav class="menu">
-              <a href="file:///C:/Users/User/Desktop/Movie-Website-Home-Page-main/Movie%20Website/home.html">Home</a>
-                <a href="file:///C:/Users/User/Desktop/Movie-Website-Home-Page-main/Movie%20Website/movie.html">Movies</a>
-                <a href="file:///C:/Users/User/Desktop/Movie-Website-Home-Page-main/Movie%20Website/drama.html">Drama</a>
-                <a href="C:\Users\User\Desktop\Movie-Website-Home-Page-main\Movie Website/upcoming2.html">Upcoming</a>
-                <a href="file:///C:/Users/User/Desktop/Movie-Website-Home-Page-main/Movie%20Website/news.html">News</a>
-                <a href="file:///C:/Users/User/Desktop/Movie-Website-Home-Page-main/Movie%20Website/contactus.html">Contact Us</a>
-              </nav>
+          <div class="main">
+            <span style="font-size:30px;cursor:pointer;color: aliceblue;position:absolute; right:500px;" onclick="openNav()">&#9776; </span>
+          </div>     
+
+              <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="C:\Users\LENOVO\Desktop\bioscope\Movie Website/home.html">Home</a>
+                <a href="C:\Users\LENOVO\Desktop\bioscope\Movie Website/movie.html">Movies</a>
+                <a href="C:\Users\LENOVO\Desktop\bioscope\Movie Website/drama.html">Drama</a>
+                <a href="C:\Users\LENOVO\Desktop\bioscope\Movie Website/upcoming2.html">Upcoming</a>
+                <a href="C:\Users\LENOVO\Desktop\bioscope/news.html">News</a>
+                <a href="C:\Users\LENOVO\Desktop\bioscope\Movie Website/contactus.html">Contact Us</a>
+              </div>        
+               <img src='C:\Users\LENOVO\Desktop\bioscope\Movie Website\img\gif.gif' class='iconDetails'>
+                <div style='margin-left:60px;'>
+            <h1 class="logo">BioscopeBD</h1>
+                 </div>
+                 
+        </div>    
+            </div>    
         </div>
     </header>
 
+    <blockquote>"No good movie is too long and no bad movie is short enough"</blockquote>
+<cite>Roger Eberts</cite>
+
     <ul class="cards">
+      
       <li class="cards__item">
+        
+        <h1>
+          <a href="C:\Users\LENOVO\Desktop\bioscope\Movie Website/movie.html"> Top movies</a>
+          </h1>
+        
         <div class="card">
-          <img src="C:\Users\User\Desktop\Movie-Website-Home-Page-main\Movie Website\img\download.jpg">
+          <img src="C:\Users\LENOVO\Desktop\bioscope\Movie Website\img\download.jpg">
            <div class="card__content">
             <div class="card__title">MOVIES</div>
-            <p class="card__text">This is the shorthand for flex-grow, flex-shrink and flex-basis combined. The second and third parameters (flex-shrink and flex-basis) are optional. Default is 0 1 auto. </p>
-            <button class="btn btn--block card__btn">Read more</button>
+            <p class="card__text">Jeebon Theke Neya The film is a political satire based on the Bengali Language Movement under the rule of Pakistan. </p>
+            <a href="https://en.wikipedia.org/wiki/Jibon_Theke_Neya" class="btn btn-primary btn-block">Read more</a>
           </div>
         </div>
       </li>
       <li class="cards__item">
         <div class="card">
-          <img src="C:\Users\User\Desktop\Movie-Website-Home-Page-main\Movie Website\img\2.jpg">
+          <img src="C:\Users\LENOVO\Desktop\bioscope\Movie Website\img\2.jpg">
           <div class="card__content">
             <div class="card__title">DRAMA</div>
             <p class="card__text">This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
-            <button class="btn btn--block card__btn">Read more</button>
+            <a href="https://en.wikipedia.org/wiki/Jibon_Theke_Neya" class="btn btn-primary btn-block">Read more</a>
           </div>
         </div>
       </li>
       <li class="cards__item">
         <div class="card">
-          <img src="C:\Users\User\Desktop\Movie-Website-Home-Page-main\Movie Website\img\3.jpg">
+          <img src="C:\Users\LENOVO\Desktop\bioscope\Movie Website\img\3.jpg">
           <div class="card__content">
             <div class="card__title">NEWS</div>
             <p class="card__text">This defines the ability for a flex item to shrink if necessary. Negative numbers are invalid.</p>
-            <button class="btn btn--block card__btn">Read more</button>
+            <a href="https://en.wikipedia.org/wiki/Jibon_Theke_Neya" class="btn btn-primary btn-block">Read more</a>
           </div>
         </div>
       </li>
+</ul>
 
-    
+ 
+<ul class="cards">
+  <li class="cards__item">
+    <h1>
+      <a href="C:\Users\LENOVO\Desktop\bioscope\Movie Website/movie.html"> Top movies</a>
+      </h1>
+    <div class="card">
+      <img src="C:\Users\LENOVO\Desktop\bioscope\Movie Website\img\download.jpg">
+       <div class="card__content">
+         
+        <div class="card__title">MOVIES</div>
+        <p class="card__text">Jeebon Theke Neya (Bengali: জীবন থেকে নেয়া, Translation: Taken from Life) is a 1970 Bengali-language film directed by Zahir Raihan. The film is a political satire based on the Bengali Language Movement under the rule of Pakistan. </p>
+        <a href="https://en.wikipedia.org/wiki/Jibon_Theke_Neya" class="btn btn-primary btn-block">Read more</a>
+      </div>
+    </div>
+  </li>
+  <li class="cards__item">
+    <div class="card">
+      <img src="C:\Users\LENOVO\Desktop\bioscope\Movie Website\img\2.jpg">
+      <div class="card__content">
+        <div class="card__title">DRAMA</div>
+        <p class="card__text">This defines the ability for a flex item to grow if necessary. It accepts a unitless value that serves as a proportion. It dictates what amount of the available space inside the flex container the item should take up.</p>
+        <a href="https://en.wikipedia.org/wiki/Jibon_Theke_Neya" class="btn btn-primary btn-block">Read more</a>
+      </div>
+    </div>
+  </li>
+  <li class="cards__item">
+    <h1>
+      <a href="C:\Users\LENOVO\Desktop\bioscope\Movie Website/movie.html"> Top movies</a>
+      </h1>
+    <div class="card">
+      <img src="C:\Users\LENOVO\Desktop\bioscope\Movie Website\img\3.jpg">
+      <div class="card__content">
+        <div class="card__title">NEWS</div>
+        <p class="card__text">This defines the ability for a flex item to shrink if necessary. Negative numbers are invalid.</p>
+        <a href="https://en.wikipedia.org/wiki/Jibon_Theke_Neya" class="btn btn-primary btn-block">Read more</a>
+      </div>
+    </div>
+  </li>
+</ul>
+
+
+
+<ul class="cards">
+  <div class="row">
+    <div class="column">
+      <img src="img_snow.jpg" alt="Snow" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="img_forest.jpg" alt="Forest" style="width:100%">
+    </div>
+    <div class="column">
+      <img src="img_mountains.jpg" alt="Mountains" style="width:100%">
+    </div>
+  </div>
+</ul>
+
 
     <script src="js/script.js"></script>
+    <script src="js/readmore.js"></script>
+
 </body>
+<br>
+
+
+<footer class="text-center text-lg-start bg-light text-muted">
+    
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    
+    
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+   
+  </section>
+
+ 
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h3 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>BioscopeBD
+          </h3>
+          
+        </div>
+        
+       
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          
+
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> Mirpur Cantonment</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            sumaiyakhatun007@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i>017########</p>
+        
+        </div>
+        
+      </div>
+      
+    </div>
+  </section>
+  
+
+  
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">BioscopeBD.com</a>
+  </div>
+ 
+</footer>
 </html>
